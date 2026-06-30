@@ -55,7 +55,7 @@ https://YOUR_USERNAME.github.io/responsive-image-gallery/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/responsive-image-gallery.git
+git clone https://github.com/shaheerawan295-png/CodeAlpha_Scenic_Gallery.git
 ```
 
 ### Navigate to the project folder
