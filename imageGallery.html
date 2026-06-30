@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A friendly gallery featuring beautiful nature scenes, exciting cars, and adorable animals.">
+    <meta name="theme-color" content="#2e6b4b">
+    <meta name="author" content="ShaheerDev">
+    <title>Nature, Cars & Animals Gallery</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./imageGallery.css">
+</head>
+<body>
+    <main class="container">
+        <header class="hero">
+            <p class="eyebrow">Welcome to</p>
+            <h1>Nature, Cars & Animals Gallery</h1>
+            <p class="subtitle">Enjoy a warm and colorful collection of scenic landscapes, sleek cars, and wonderful wildlife.</p>
+        </header>
+
+        <div class="filters" aria-label="Image filters">
+            <button type="button" data-filter="all" class="active" onclick="filterImages('all')">All</button>
+            <button type="button" data-filter="nature" onclick="filterImages('nature')">Nature</button>
+            <button type="button" data-filter="cars" onclick="filterImages('cars')">Cars</button>
+            <button type="button" data-filter="animals" onclick="filterImages('animals')">Animals</button>
+        </div>
+
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80" class="gallery-item" data-category="nature" alt="Beautiful mountain landscape at sunrise">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80" class="gallery-item" data-category="cars" alt="Modern sports car parked on a road">
+            <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=800&q=80" class="gallery-item" data-category="animals" alt="Cute playful puppy outdoors">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" class="gallery-item" data-category="nature" alt="Green forest path surrounded by trees">
+            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=800&q=80" class="gallery-item" data-category="cars" alt="Luxury black car with shiny finish">
+            <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?auto=format&fit=crop&w=800&q=80" class="gallery-item" data-category="animals" alt="Wildlife scene with a deer in a forest">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80" class="gallery-item" data-category="nature" alt="Scenic coastal cliffs and ocean view">
+            <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=800&q=80" class="gallery-item" data-category="cars" alt="Red vintage car on a sunny road">
+            <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=800&q=80" class="gallery-item" data-category="animals" alt="A graceful elephant walking in nature">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" class="gallery-item" data-category="nature" alt="Beautiful lake and mountain reflection">
+            <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=800&q=80" class="gallery-item" data-category="cars" alt="Bright orange sports car close-up">
+            <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=800&q=80" class="gallery-item" data-category="animals" alt="Curious cat relaxing near flowers">
+        </div>
+    </main>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <span class="close" aria-label="Close image">&times;</span>
+        <button class="prev" aria-label="Previous image">&#10094;</button>
+        <img class="lightbox-image" alt="Expanded gallery view">
+        <button class="next" aria-label="Next image">&#10095;</button>
+    </div>
+    <script src="./imageGallery.js"></script>
+</body>
+</html>
