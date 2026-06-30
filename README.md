@@ -3,13 +3,6 @@
 A modern and responsive image gallery built using **HTML**, **CSS**, and **Vanilla JavaScript**. The project showcases a clean, user-friendly interface with smooth interactions and a responsive layout for an enhanced viewing experience.
 
 ---
-
-## 🚀 Live Demo
-
-https://YOUR_USERNAME.github.io/responsive-image-gallery/
-
----
-
 ## 📸 Preview
 
 ![Project Preview](./screenshot.png)
